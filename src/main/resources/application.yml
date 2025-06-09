@@ -7,3 +7,7 @@ spring:
     ollama:
       chat:
         model: llama3.2
+        
+traffic:
+  apiKey: ${GRAPH_HOPPER_API_KEY}
+  apiUrl: https://graphhopper.com
