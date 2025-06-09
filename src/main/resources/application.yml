@@ -1,0 +1,9 @@
+logging.level.org.springframework.ai.chat.client.advisor: DEBUG
+
+spring:
+  application:
+      name: wtb2.0
+  ai:
+    ollama:
+      chat:
+        model: llama3.2
